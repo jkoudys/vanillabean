@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>A Test!</title>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.9.1/polyfill.js"></script>
+		<script src="./temp.js"></script>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<script type="text/template" data-template="menu">
+					<ul>
+						${t.items}
+					</ul>
+				</script>
+				<script type="text/template" data-template="item">
+					<li><a href="${href}">${name}</a></li>
+				</script>
+			</nav>
+		</header>
+		<main>
+			<script type="text/template" data-template="article">
+				<article>
+					<h1>${t.title}</h1>
+					<section>
+						${t.text}
+					</section>
+				</article>
+			</script>
+		</main>
+	</body>
+</html>
