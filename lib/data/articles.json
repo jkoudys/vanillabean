@@ -1,0 +1,18 @@
+[
+	{
+		"title": "A great article",
+		"text": "Something about why this article is great."
+	},
+	{
+		"title": "Ever and more",
+		"text": "Yet another article"
+	},
+	{
+		"title": "A lesser article",
+		"text": "This is still pretty good. As great as the best article? No. But good."
+	},
+	{
+		"title": "Some other article",
+		"text": "Normally we'd grab these from a web service, eh?"
+	}
+]
